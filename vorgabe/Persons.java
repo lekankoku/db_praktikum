@@ -48,8 +48,8 @@ public class Persons {
 
 	public void createPersonsTable() {
 		// Erstellt die Tabelle 'Person'.
-		String sql = "CREATE TABLE Person(pid primary key int, vorname varchar(50), nachname varchar(50))";
 
+		String sql = "create table PERSON ( pid number primary key, vorname varchar(20), nachname varchar(20))";
 		// Befehl ausfuehren
 		try {
 			Statement statement = connection.createStatement();
