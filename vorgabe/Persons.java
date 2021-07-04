@@ -117,9 +117,9 @@ public class Persons {
 			System.out.print("Geben Sie PID ein: ");
 			pid = Integer.parseInt(scanner.nextLine());
 			System.out.print("Geben Sie Vornamen ein: ");
-			vorname = scanner.nextLine();
+			vorname = scanner.nextLine().trim();
 			System.out.print("Geben Sie Nachnamen ein: ");
-			nachname = scanner.nextLine();
+			nachname = scanner.nextLine().trim();
 			System.out.println();
 		} catch (Exception e) {
 			System.out.println("ERROR: " + e.getMessage());
