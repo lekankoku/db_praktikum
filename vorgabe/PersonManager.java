@@ -15,7 +15,8 @@ import java.sql.SQLException;
 
 public class PersonManager {
 
-	private final String DB_URL = "jdbc:oracle:thin:coco.informatik.tu-cottbus.de"; // URL des Datenbanksystems
+	private final String DB_URL = "jdbc:oracle:thin:coco.informatik.tu-cottbus.de:1521:dbis"; // URL des
+																								// Datenbanksystems
 	private final String DB_USERNAME = "STUD_DB_SS_2021_7"; // Nutzername
 	private final String DB_PASSWORD = "bL2KaBJa"; // Passwort
 	private final int LOGIN_TIMEOUT = 10000; // maximale Zeit fuer Verbindungsaufbau in ms
