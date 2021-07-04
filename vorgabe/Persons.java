@@ -185,7 +185,7 @@ public class Persons {
 
 	public void dropPersonsTable() {
 		// Loescht die Tabelle 'Person'.
-		String sql = "DROP TABLE Person";
+		String sql = "DROP TABLE Person cascade constraints";
 
 		// Befehl ausfuehren
 		try {
